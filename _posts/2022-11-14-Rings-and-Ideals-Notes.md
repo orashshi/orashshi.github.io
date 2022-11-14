@@ -22,7 +22,6 @@ layout: post
 
 ## Commutative Algebra Notes: Rings and Ideals
 
-## Chapter 1: Rings and Ideals
 ### 1.1
 Let $x$ be a nilpotent element of a ring $A$. Show that $1 + x$ is a unit of $A$. Deduce that the sum of a nilpotent element and a unit is a unit.
 
