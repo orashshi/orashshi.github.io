@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This is Xiang's personal blog. A freshman student major in Mathematics and Computer Science. I will share something interesting here, especially about my thought in Mathematics, Physics and Computer Science.
