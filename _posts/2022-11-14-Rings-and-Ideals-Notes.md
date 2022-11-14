@@ -1,3 +1,13 @@
+---
+title: Rings and Ideals Notes
+date: 2022-11-14 01:33:44 -0500
+tags:
+- commutative_algebra
+- mathematics
+layout: post
+---
+
+
 <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
