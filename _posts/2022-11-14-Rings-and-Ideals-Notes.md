@@ -174,7 +174,8 @@ This is because,
 
 $$(a_0b_0, a_0b_1 + a_1b_0, \cdots , a_nb_m) \subseteq I_{max}$$
 
-Hence, 
+Hence,
+
 $$FG = (a_0b_0 + I_{max}) + (a_0b_1 + a_1b_0 + I_{max})x + \cdots + (a_nb_m + I_{max})x^{n+m} = 0$$
 
 $F=0$ or $G=0$ because $(A/I_{max})[x]$ is integral domain. This means that $a_i \in I_{max}$, $\forall 0 \leq i \leq n$ or $b_i \in I_{max}$, $\forall 0 \leq i \leq m$. This conflicts with $(a_0, a_1, \cdots , a_n) = (b_0, b_1, \cdots , b_n) = (1)$.
@@ -182,4 +183,5 @@ $F=0$ or $G=0$ because $(A/I_{max})[x]$ is integral domain. This means that $a_i
 ### 1.3 
 
 Generalize the results of Exercise $1.2$ to a polynomial ring $A[x_1, \cdots , x_r]$ in several indeterminates.
+
 
