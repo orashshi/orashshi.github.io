@@ -182,3 +182,4 @@ $F=0$ or $G=0$ because $(A/I_{max})[x]$ is integral domain. This means that $a_i
 ### 1.3 
 
 Generalize the results of Exercise $1.2$ to a polynomial ring $A[x_1, \cdots , x_r]$ in several indeterminates.
+
