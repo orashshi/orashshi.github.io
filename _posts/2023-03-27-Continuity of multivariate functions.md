@@ -28,5 +28,17 @@ Given the function $f:E\rightarrow \mathbb{R}^n$. If for any neighborhood $V(f(a
 
 Hence,
 
-($ f:E\rightarrow \mathbb{R}^n$ is continuous at $a \in E$)$:=$ $(\forall V(f(a))\exists U_E(a)(f(U_E(a))\in V(f(a))))$
+($ f:E\rightarrow \mathbb{R}^n$ is continuous at $a \in E$)$ :=$ $(\forall V(f(a))\exists U_E(a)(f(U_E(a))\subset V(f(a))))$
 
+In fact, the Definition $1$ is identical to our definition of continuity of the real-valued functions. Therefore, we can also give the following expression of this definition as we did there:
+($ f:E\rightarrow \mathbb{R}^n$ is continuous at $a \in E$)
+
+$\qquad \qquad$ $:=$ $(\forall \varepsilon > 0 \exists \delta>0\forall x \in E(d(x,a)<\delta \Rightarrow d(f(x),f(a))<\varepsilon))$,
+
+or, if the point $a$ is the limit point of $E$, then
+
+($ f:E\rightarrow \mathbb{R}^n$ is continuous at $a \in E$)$ :=$ ($\lim_{x \in E \to a}f(x)=f(a)$).
+
+Obviously, the concept of continuity makes sense only when the point $a \in E$ is the limit point of the set $E$ and the function $f$ has been defined on $E$.
+
+From Definition 1
