@@ -41,4 +41,24 @@ or, if the point $a$ is the limit point of $E$, then
 
 Obviously, the concept of continuity makes sense only when the point $a \in E$ is the limit point of the set $E$ and the function $f$ has been defined on $E$.
 
-From Definition 1
+From Definition 1, we can know that the sufficient necessary condition for $f:E \rightarrow \mathbb{R}^n$(the mapping  given by the relation below) 
+
+$$(x^1,\cdots,x^m)=x \xmapsto{f} y =(y^1,\cdots,y^n)=(f^1(x^1,\cdots,x^m),\cdots,f^n(x^1,\cdots,x^m))$$
+
+to be continuous at a point is that every function $y^i=f^i(x^1,\cdots,x^m)$ is continuous at this point.
+
+Specially, we still remember that the $\textbf{path}$ in $\mathbb{R}^n$ refers to the map $f:I \rightarrow \mathbb{R}$ in $I \subset \mathbb{R}$. It was decribed by the continuous function $f^1(x),\cdots, f^n(x)$:
+
+$$x \mapsto y = (y^1,\cdots,y^n) = (f^1(x),\cdots,f^n(x)). $$
+
+Hence, we define that the $\textbf{path}$ in $\mathbb{R}$ is the continuous mapping from the interval $I \subset \mathbb{R}$ on real axis to $\mathbb{R}^n$.
+
+Similar to the definition of the amplitude of a real-valued function at a point, the concept of the amplitude of a function whose value belongs to $\mathbb{R}^n$ at a point can be introduced.
+
+#### Definition 2: 
+$$w(f;a):= \lim_{r \to +0} w(f;B_E(a;r))$$
+is called the $\textbf{amplitude}$ of the function $f:E \rightarrow \mathbb{R}^n$ at $a\in E$.
+
+From the definition of the continuous function from Definition $1$ and the properties of the limit and the Cauchy principal, we obtain a series of common local properties of the continuous function, which are listed below:
+
+a) 
