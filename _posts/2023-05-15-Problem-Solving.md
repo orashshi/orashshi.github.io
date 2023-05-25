@@ -19,6 +19,8 @@ layout: post
     </script>
 </head>
 
+刷的几道比较难的数学分析题。持续更新~
+
 ### Question 1：
 设 $f$ 是 $\{(x,y)|x^2+y^2\leq 1\}$上的二次连续可微函数，
    
