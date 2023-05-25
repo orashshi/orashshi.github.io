@@ -45,7 +45,7 @@ $$\lim_{n \to +\infty} n^2  \int_0^1 x^n f(x)\mathrm{d}x = -a$$
 
 证：令$F(x) = f(x) - a(x-1)$，对于 $r \in (0,1]$，记
 
-$$\omega(r)=\sup_{0 < \left | x - 1 \right | \leq r}\frac{\left | F(x) \right |}{1-x}$$.
+$$\omega(r)=\sup_{0 < \left | x - 1 \right | \leq r}\frac{\left | F(x) \right |}{1-x}$$
 
 我们有 $\lim\limits_{r \to 0^+} \omega(r) = 0$. 于是对任何 $\delta \in (0,1)$, 有
 
