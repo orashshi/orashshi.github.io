@@ -19,7 +19,8 @@ layout: post
     </script>
 </head>
 
-1. 设 $f$ 是 $\{(x,y)|x^2+y^2\leq 1\}$上的二次连续可微函数，
+### Question 1：
+设 $f$ 是 $\{(x,y)|x^2+y^2\leq 1\}$上的二次连续可微函数，
    
 $$\frac{\partial^2 f(x,y)}{\partial x^2}+\frac{\partial^2 f(x,y)}{\partial y^2}=x^2 y^2$$
 
@@ -37,7 +38,8 @@ I &= \iint \limits_{x^2+y^2 \leq 1} \nabla r \cdot \nabla f \mathrm{d}x \mathrm{
 &= (\frac{1}{6}-\frac{1}{7})\int_0^{2\pi} \frac{\sin^2{2\theta}}{4} \mathrm{d} \theta = \frac{\pi}{168}. 
 \end{align*}$$
 
-2. 设$f$在$[0,1]$上Riemann可积，在点1处可导，$f(1)=0,f^{\prime}(1) = a.$ 证明：
+### Question 2
+设$f$在$[0,1]$上Riemann可积，在点1处可导，$f(1)=0,f^{\prime}(1) = a.$ 证明：
    
 $$\lim_{n \to +\infty} n^2  \int_0^1 x^n f(x)\mathrm{d}x = -a$$
 
