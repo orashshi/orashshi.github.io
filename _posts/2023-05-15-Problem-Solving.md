@@ -21,7 +21,7 @@ layout: post
 
 刷到的几道比较难的数学分析题。持续更新~
 
-### Question 1：
+### Question 1
 设 $f$ 是 $\{(x,y)|x^2+y^2\leq 1\}$上的二次连续可微函数，
    
 $$\frac{\partial^2 f(x,y)}{\partial x^2}+\frac{\partial^2 f(x,y)}{\partial y^2}=x^2 y^2$$
