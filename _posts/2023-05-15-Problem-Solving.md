@@ -19,7 +19,7 @@ layout: post
     </script>
 </head>
 
-刷的几道比较难的数学分析题。持续更新~
+刷到的几道比较难的数学分析题。持续更新~
 
 ### Question 1：
 设 $f$ 是 $\{(x,y)|x^2+y^2\leq 1\}$上的二次连续可微函数，
@@ -82,12 +82,12 @@ $$\int_0^{+\infty} \varphi(t) \mathrm{d}t = \int_0^{+\infty} \varphi^{-1}(t)\mat
 
 $$\int_0^{+\infty} [\varphi(t)]^2 \mathrm{d}t + \int_0^{+\infty} [\varphi^{-1}(t)]^2\mathrm{d}t \geq \frac{1}{2} a^{\frac{3}{2}}$$
 
-证：令$D$为封闭区域$\left\{ (x,y) \| 0 \leq y \leq \varphi(x),x \geq 0 \right\}$，则$\iint \limits_D \mathrm{d}x\mathrm{d}y = a$. 对于$s>0$, 记$\Delta_s$为以$(0,0),(s,0),(0,s)$为顶点的三角形区域。则有
+证：令$D$为封闭区域$\left\{ (x,y) \mid 0 \leq y \leq \varphi(x),x \geq 0 \right\}$，则$\iint \limits_D \mathrm{d}x\mathrm{d}y = a$. 对于$s>0$, 记$\Delta_s$为以$(0,0),(s,0),(0,s)$为顶点的三角形区域。则有
 
 $$\begin{align*}
 \int_0^{+\infty}[\varphi(t)]^2 \mathrm{d}t + \int_0^{+\infty}[\varphi^{-1}(t)]^2\mathrm{d}t &= 2 \iint \limits_D (x+y) \mathrm{d}x\mathrm{d}y \\
 & \geq 2s\iint \limits_{D\backslash \Delta_s} \mathrm{d}x\mathrm{d}y\\
-& \leq 2s\left(a-\frac{1}{2}s^2\right)
+& \geq 2s\left(a-\frac{1}{2}s^2\right)
 \end{align*}
 $$
 
@@ -98,4 +98,6 @@ $$\int_0^{+\infty}[\varphi(t)]^2 \mathrm{d}t + \int_0^{+\infty}[\varphi^{-1}(t)]
 $\blacksquare$
 
 ### Question 4
+
+
 
