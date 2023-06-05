@@ -22,7 +22,7 @@ layout: post
 考虑使用RAdam优化算法优化一个一维的凸函数$f(x)$，其中$x$表示模型参数。
 
 ### Theorem
-设$f(x)$是一个一维凸函数，且梯度的平方有界，即存在一个常数$C$使得$E[g_t^2] \leq C$，其中$g_t = \nabla f(x_t)$。对于RAdam优化算法，我们有$\lim_{t \rightarrow \infty} f(x_{t+1}) = f^*$，其中$f^*$表示收敛后的函数值。
+设$f(x)$是一个一维凸函数，且梯度的平方有界，即存在一个常数$C$使得$E[g_t^2] \leq C$，其中$g_t = \nabla f(x_t)$。对于RAdam优化算法，我们有$\lim \limits_{t \to \infty} f(x_{t+1}) = f^*$，其中$f^*$表示收敛后的函数值。
 
 为了证明此定理，我们需要以下引理：
 
@@ -50,6 +50,7 @@ E[v_t] = E[\beta_2 v_{t-1} + (1 - \beta_2) g_t^2] \leq \beta_2 E[v_{t-1}] + (1 -
 $$
 
 将上述不等式展开，我们可以得到：
+
 $$
 \begin{equation}
 E[v_t] \leq (1 - \beta_2)^t C
@@ -57,6 +58,7 @@ E[v_t] \leq (1 - \beta_2)^t C
 $$
 
 由于$\hat{v}_t = \frac{v_t}{1 - \beta_2^t}$，因此我们有：
+
 $$
 \begin{equation}
 E[\hat{v}_t] \leq \frac{C}{1 - \beta_2^t}
@@ -122,9 +124,11 @@ $$
 $$
 
 由于$f(x)$是一个凸函数，因此$f(x{t+1}) - f(x_t)$随着$t$的增加逐渐趋近于0。因此，我们有：
+
 $$
 \begin{equation}
     \lim \limits_{t \to \infty} f(x_{t+1}) = f^*
 \end{equation}
 $$
+
 至此，我们证明了RAdam优化算法在一定条件下能够使目标函数收敛。
